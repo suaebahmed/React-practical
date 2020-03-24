@@ -18,7 +18,6 @@ toast.configure()
 function Toastify() {
 
     const notify = () =>{
-
         toast('Basic notification!',{position: toast.POSITION.TOP_CENTER,
             autoClose: 8000,
         })
@@ -26,8 +25,6 @@ function Toastify() {
         autoClose: false
         })
         toast.info(<CustomToast/>,{position: toast.POSITION.TOP_RIGHT})
-
-
         toast.warn('Basic notification!',{position: toast.POSITION.BOTTOM_CENTER})
         toast.error('Basic notification!',{position: toast.POSITION.BOTTOM_LEFT})
         toast('Basic notification!',{position: toast.POSITION.BOTTOM_RIGHT})
